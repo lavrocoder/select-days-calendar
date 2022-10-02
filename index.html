@@ -5,7 +5,7 @@
     <title>Select days calendar</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onmouseup="endDrawing(this)">
 <div class="container">
     <div class="calendar-container">
         <div class="glass">
@@ -18,13 +18,13 @@
                             <td class="next">></td>
                         </tr>
                         <tr>
-                            <td>ПН</td>
-                            <td>ВТ</td>
-                            <td>СР</td>
-                            <td>ЧТ</td>
-                            <td>ПТ</td>
-                            <td>СБ</td>
-                            <td>ВС</td>
+                            <td onclick="selectDaysOfWeek(1)">ПН</td>
+                            <td onclick="selectDaysOfWeek(2)">ВТ</td>
+                            <td onclick="selectDaysOfWeek(3)">СР</td>
+                            <td onclick="selectDaysOfWeek(4)">ЧТ</td>
+                            <td onclick="selectDaysOfWeek(5)">ПТ</td>
+                            <td onclick="selectDaysOfWeek(6)">СБ</td>
+                            <td onclick="selectDaysOfWeek(7)">ВС</td>
                         </tr>
                     </thead>
                     <tbody class="calendar-days"></tbody>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select days calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="calendar-container">
+        <div class="glass">
+            <div class="calendar">
+                <table class="calendar-body">
+                    <thead class="calendar-head">
+                        <tr>
+                            <td class="prev"><</td>
+                            <td colspan="5" class="year-month"></td>
+                            <td class="next">></td>
+                        </tr>
+                        <tr>
+                            <td>ПН</td>
+                            <td>ВТ</td>
+                            <td>СР</td>
+                            <td>ЧТ</td>
+                            <td>ПТ</td>
+                            <td>СБ</td>
+                            <td>ВС</td>
+                        </tr>
+                    </thead>
+                    <tbody class="calendar-days"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="selected-days-container">
+        <div class="selected-days"></div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

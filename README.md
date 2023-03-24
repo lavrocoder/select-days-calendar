@@ -12,3 +12,6 @@ Methods of deselection:
 2. Deselecting several days by dragging.
 3. Deselecting the days of the month by the day of the week.
 4. Deselecting all days by click on the button Clear.
+
+
+[Demo](https://lavrocoder.github.io/select-days-calendar/)
